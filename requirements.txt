@@ -1,0 +1,22 @@
+# Versiones acotadas a rangos compatibles probados.
+# Si pip instala versiones más nuevas con APIs distintas, fija aquí la versión exacta.
+
+# --- Core: orquestación del agente y RAG (necesario para ambos backends) ---
+langchain>=0.3.0,<2.0.0
+langchain-community>=0.3.0,<2.0.0
+langchain-text-splitters>=0.3.0,<2.0.0
+langchain-chroma>=0.1.4,<2.0.0
+langchain-huggingface>=0.1.0,<2.0.0
+langgraph>=0.2.0,<2.0.0
+chromadb>=0.5.0,<2.0.0
+sentence-transformers>=3.0.0,<6.0.0
+gradio>=5.0.0,<7.0.0
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+
+# --- Backend local (por defecto): modelo Qwen vía Ollama ---
+langchain-ollama>=0.2.0,<2.0.0
+
+# --- Backend opcional: Claude vía API de Anthropic ---
+# Solo necesario si usas LLM_BACKEND=anthropic
+langchain-anthropic>=0.3.0,<2.0.0

@@ -1,0 +1,36 @@
+# --- Entorno virtual ---
+.venv/
+venv/
+env/
+
+# --- Variables de entorno (NUNCA subir claves) ---
+.env
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+
+# --- Estado generado en tiempo de ejecución ---
+# Índice vectorial de ChromaDB (se reconstruye solo)
+.chroma/
+# Trazas del agente (datos de ejecución, no código)
+logs/
+# Etiquetas emitidas durante las pruebas (estado mutable)
+data/labels_emitidas.json
+
+# --- Modelos / caché de Hugging Face (pesados) ---
+.cache/
+*.bin
+*.safetensors
+
+# --- Sistema operativo ---
+.DS_Store
+Thumbs.db
+
+# --- Editores ---
+.vscode/
+.idea/
+*.swp

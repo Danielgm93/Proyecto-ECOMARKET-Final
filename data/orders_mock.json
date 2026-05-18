@@ -1,0 +1,78 @@
+{
+  "ORD-12345": {
+    "user_id": "USR-001",
+    "fecha_compra": "2026-04-28",
+    "direccion_envio": "Calle 18 #122-135, Cali, Valle del Cauca",
+    "productos": [
+      {
+        "product_id": "P-1001",
+        "nombre": "Licuadora Oster 3 velocidades",
+        "categoria": "electrohogar",
+        "precio_cop": 189000,
+        "abierto": true,
+        "devuelto": false
+      },
+      {
+        "product_id": "P-1002",
+        "nombre": "Set de toallas eco-friendly",
+        "categoria": "hogar",
+        "precio_cop": 75000,
+        "abierto": false,
+        "devuelto": false
+      }
+    ]
+  },
+  "ORD-67890": {
+    "user_id": "USR-002",
+    "fecha_compra": "2026-05-10",
+    "direccion_envio": "Carrera 1 Oeste #5-50, Cali, Valle del Cauca",
+    "productos": [
+      {
+        "product_id": "P-2050",
+        "nombre": "Leche orgánica 1L x 6",
+        "categoria": "alimentos_perecederos",
+        "precio_cop": 42000,
+        "abierto": false,
+        "devuelto": false
+      },
+      {
+        "product_id": "P-2051",
+        "nombre": "Cepillo de dientes de bambú",
+        "categoria": "higiene_personal",
+        "precio_cop": 18000,
+        "abierto": true,
+        "devuelto": false
+      }
+    ]
+  },
+  "ORD-11111": {
+    "user_id": "USR-003",
+    "fecha_compra": "2026-01-15",
+    "direccion_envio": "Av. Roosevelt #36-12, Cali, Valle del Cauca",
+    "productos": [
+      {
+        "product_id": "P-3001",
+        "nombre": "Bicicleta urbana plegable",
+        "categoria": "deportes",
+        "precio_cop": 1250000,
+        "abierto": true,
+        "devuelto": false
+      }
+    ]
+  },
+  "ORD-22222": {
+    "user_id": "USR-004",
+    "fecha_compra": "2026-05-01",
+    "direccion_envio": "Calle 9 #50-25, Cali, Valle del Cauca",
+    "productos": [
+      {
+        "product_id": "P-4001",
+        "nombre": "Audífonos inalámbricos",
+        "categoria": "electronica",
+        "precio_cop": 320000,
+        "abierto": true,
+        "devuelto": true
+      }
+    ]
+  }
+}
