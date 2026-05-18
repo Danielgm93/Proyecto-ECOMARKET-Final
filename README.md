@@ -200,9 +200,3 @@ Este proyecto utilizó modelos de IA generativa tanto como **objeto de estudio**
 documentación y revisión de código. Todas las decisiones de diseño,
 justificaciones técnicas y análisis crítico son de autoría propia, con la IAG
 empleada para clarificar redacción y verificar consistencia interna.
-
----
-
-## Autor
-
-Estudiante de la Maestría en Inteligencia Artificial — Universidad Icesi
