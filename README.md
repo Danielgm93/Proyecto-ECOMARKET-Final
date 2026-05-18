@@ -1,7 +1,9 @@
 # EcoMarket Agent — Proyecto Final IA Generativa
 
-**Curso:** Electiva IV - IA Generativa (TIC-60296) — Maestría en IA, Universidad Icesi
+**Curso:** Electiva IV - IA Generativa — Maestría en IA, Universidad Icesi
 **Periodo:** 2026-1
+**Autores:** Daniel Garcia, Diana Varela
+
 
 Asistente de atención al cliente para EcoMarket extendido con un **Agente de IA**
 capaz de automatizar el proceso de devolución de productos (verificación de
@@ -60,7 +62,7 @@ modelo local, por lo que **no requiere API keys ni tiene costo**.
 ### Paso 1 — Dependencias de Python
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/Danielgm93/Proyecto-ECOMARKET-Final.git
 cd ecomarket-agent
 
 python -m venv .venv
@@ -75,15 +77,13 @@ pip install -r requirements.txt
 cp .env.example .env
 ```
 
-El proyecto soporta dos backends. Edita `.env` según el que prefieras.
-
 #### Opción A — Modelo local con Ollama (por defecto, sin costo)
 
 1. Instala Ollama desde https://ollama.com/download
 2. Descarga el modelo recomendado:
 
    ```bash
-   # Recomendado para una GPU de 6 GB (ej. RTX 3050):
+   # Recomendado para una GPU de 6 GB:
    ollama pull qwen2.5:7b
 
    # Alternativa más ligera y rápida (si el 7B va lento):
@@ -191,12 +191,3 @@ ecomarket-agent/
     └── prompts_evaluacion.md        # Batería de prompts de prueba
 ```
 
----
-
-## Declaración de uso de IAG (Nivel 4 — IAG Completa)
-
-Este proyecto utilizó modelos de IA generativa tanto como **objeto de estudio**
-(son el LLM detrás del agente) como **herramienta de apoyo** en la redacción de
-documentación y revisión de código. Todas las decisiones de diseño,
-justificaciones técnicas y análisis crítico son de autoría propia, con la IAG
-empleada para clarificar redacción y verificar consistencia interna.
